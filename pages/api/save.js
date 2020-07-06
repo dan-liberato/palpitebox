@@ -10,7 +10,6 @@ const getCoupon = () => {
 }
 
 export default async (req, res) => {
-
 	try {
 		await doc.useServiceAccountAuth({
 			client_email: process.env.SHEET_CLIENT_EMAIL,
