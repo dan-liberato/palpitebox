@@ -25,7 +25,7 @@ const Search = () => {
 			setSuccess(true)
 			setRetorno(data)
 		} catch (error) {
-			console.log("Ops... Algo deu errado " + error)
+			console.error("Ops... Algo deu errado " + error)
 		}
 	}
 
