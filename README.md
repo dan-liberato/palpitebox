@@ -43,7 +43,7 @@ Desenvolvido com:
 Clone o repositório e instale as dependências
 >yarn install
 
-Crie um novo projeto no ***Google APIs** e selecione
+Crie um novo projeto no **Google APIs** e selecione
 a **API do Google Sheets**, gere uma credencial
 para seu projeto, pegue o email da credencial/
 conta de serviço e compartilhe uma planilha do
@@ -52,9 +52,11 @@ Google com esse e-mail.
 Pegue a id da planilha que você criou e
 adicione no arquivo **.env.example**:
 
->SHEET_CLIENT_EMAIL=Email service credential
->SHEET_PRIVATE_KEY=Private key service credential
->SHEET_DOC_ID=Spreadsheet id
+```
+SHEET_CLIENT_EMAIL=Email service credential
+SHEET_PRIVATE_KEY=Private key service credential
+SHEET_DOC_ID=Spreadsheet id
+```
 
 Após adicionar as informações acima, altere o
 nome do arquivo para **.env.local**.
