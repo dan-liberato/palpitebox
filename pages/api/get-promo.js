@@ -1,4 +1,4 @@
-import GoogleSpreadsheet from "google-spreadsheet"
+import {GoogleSpreadsheet} from "google-spreadsheet"
 import {fromBase64} from "../../utils/base64"
 
 const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID)
