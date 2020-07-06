@@ -1,5 +1,6 @@
 node_modules
 .next
+.now
 yarn.lock
 configs
 .env.local

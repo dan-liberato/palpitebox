@@ -5,13 +5,13 @@ import "../css/styles.css"
 import Layout from "../components/Layout"
 
 const App = ({ Component, pageProps }) => {
-    return (
-        <Layout>
+	return (
+		<Layout>
 
-            <Component {...pageProps} />
+			<Component {...pageProps} />
 
-        </Layout>
-    )
+		</Layout>
+	)
 }
 
 export default App
