@@ -1,15 +1,26 @@
 .footer {
-    @apply bg-gray-700 p-4
+	@apply
+	bg-gray-700
+	p-4
 }
 
 .container {
-    @apply container mx-auto text-center font-bold text-white
+	@apply
+	container
+	mx-auto
+	text-center
+	font-bold
+	text-white
 }
 
 .links:hover {
-    @apply underline
+	@apply
+	underline
 }
 
 .images {
-    @apply w-64 inline p-4
+	@apply
+	w-64
+	inline
+	p-4
 }
