@@ -7,16 +7,18 @@
   <img src="https://img.shields.io/github/last-commit/dan-liberato/palpitebox" alt="Last Commit"/>
 </p>
 
-<p align="center">![Screenshot](palpitebox.png)</p>
+<p align="center">![Screenshot](PalpiteBox.png)</p>
 
 ## :bookmark_tabs: &middot; Nota
 
 Projeto desenvolvido acompanhando os vídeos da semana Fullstack Master do
 [DevPleno](https://devpleno.com/).
 
-Ainda não conhecia o Next.js, mas pude ver que ele facilita o desenvolvimento com
-React, inclusive torna muito mais fácil para projetos que necessitem de foco em
-SEO
+Nunca tinha usado o **Framework Next.js**, mas pude ver que ele facilita o desenvolvimento
+com React, inclusive torna muito mais fácil para projetos que necessitem de foco em SEO.
+
+Sei que frameworks css agilizam o desenvolvimento, mas não sou muito fã deles e o Tailwind
+me lembrou muito do Bootstrap 4, porém acho que usar tantas classes polui de mais o html.
 
 ## :computer: &middot; Projeto
 
