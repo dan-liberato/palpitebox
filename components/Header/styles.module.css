@@ -1,0 +1,20 @@
+.header {
+    @apply flex flex-col
+}
+.header__brand,
+.menu {
+    @apply bg-gray-200 p-4
+}
+.menu{
+    @apply bg-gray-300 shadow-md text-center
+}
+.menu__item {
+    @apply px-2
+}
+.menu__item:hover {
+    @apply underline
+}
+
+.logo {
+    @apply mx-auto w-40
+}

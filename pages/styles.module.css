@@ -1,0 +1,19 @@
+.description {
+    @apply mt-6 text-center
+}
+
+.button {
+    @apply text-center my-12
+}
+
+.button__link {
+    @apply bg-blue-400 text-white px-12 py-4 font-bold rounded-lg shadow-lg
+}
+
+.button__link:hover {
+  @apply shadow
+}
+
+.message {
+    @apply my-12 text-center
+}
