@@ -11,7 +11,7 @@
 
 ## :bookmark_tabs: &middot; Nota
 
-Projeto desenvolvido acompanhando os vídeos da semana Fullstack Master do
+Projeto desenvolvido durante a semana Fullstack Master do
 [DevPleno](https://devpleno.com/).
 
 Nunca tinha usado o **Framework Next.js**, mas pude ver que ele facilita o desenvolvimento
@@ -52,9 +52,9 @@ Google com esse e-mail.
 Pegue a id da planilha que você criou e
 adicione no arquivo **.env.example**:
 
-> SHEET_CLIENT_EMAIL=Add email of service credential
-> SHEET_PRIVATE_KEY=Add private key of service credential
-> SHEET_DOC_ID=Add spreadsheet id
+>SHEET_CLIENT_EMAIL=Email service credential
+>SHEET_PRIVATE_KEY=Private key service credential
+>SHEET_DOC_ID=Spreadsheet id
 
 Após adicionar as informações acima, altere o
 nome do arquivo para **.env.local**.
@@ -62,8 +62,5 @@ nome do arquivo para **.env.local**.
 Agora é só rodar o comando
 > yarn dev
 
-Caso queira evitar esse processo acesse
->
-
-Projeto desenvolvido durante a semana Fullstack
-Master - [DevPleno](https://devpleno.com/)
+Caso queira evitar esse processo acesse:
+[PalpiteBox](https://palpitebox-delta.vercel.app/)
