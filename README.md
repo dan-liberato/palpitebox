@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/last-commit/dan-liberato/palpitebox" alt="Last Commit"/>
 </p>
 
-<p align="center">![Screenshot](PalpiteBox.png)</p>
+![Screenshot](PalpiteBox.png)
 
 ## :bookmark_tabs: &middot; Nota
 
