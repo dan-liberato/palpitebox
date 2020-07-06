@@ -25,7 +25,9 @@ const Search = () => {
 			setSuccess(true)
 			setRetorno(data)
 		} catch (error) {
-			console.error("Ops... Algo deu errado " + error)
+			console.error = (error) => {  // eslint-disable-line no-console
+				throw new Error(error)
+			}
 		}
 	}
 
