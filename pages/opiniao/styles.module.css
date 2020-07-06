@@ -2,38 +2,68 @@
     @apply pt-6
 }
 .title {
-    @apply text-center font-bold my-4 text-2xl
+    @apply text-center
+    font-bold
+    my-4
+    text-2xl
 }
 .description {
-    @apply text-center mb-6
+    @apply
+    text-center
+    mb-6
 }
 .form {
-    @apply w-4/5 mx-auto mb-20 flex flex-col justify-start items-baseline
+    @apply w-4/5
+    mx-auto mb-20
+    flex
+    flex-col
+    justify-start
+    items-baseline
 }
 .form__label {
     @apply font-bold
 }
 .form__input {
-    @apply p-4 block bg-blue-100 mb-8 rounded shadow w-full
+    @apply p-4
+    block
+    bg-blue-100
+    mb-8
+    rounded
+    shadow
+    w-full
 }
-
 .form__button {
-    @apply cursor-pointer my-12 bg-blue-400 text-white px-6 py-4 font-bold rounded-lg shadow-lg
+    @apply cursor-pointer
+    my-12
+    bg-blue-400
+    text-white
+    px-6
+    py-4
+    font-bold
+    rounded-lg
+    shadow-lg
 }
-
 .form__button:hover {
     @apply shadow
 }
-
 .banner__info {
-    @apply mb-6 text-center bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3
+    @apply mb-6
+    text-center
+    bg-blue-100
+    border-t
+    border-b
+    border-blue-500
+    text-blue-700
+    px-4
+    py-3
 }
-
 .coupon,
 .promo {
-    @apply mb-6 text-center border p-4
+    @apply mb-6
+    text-center
+    border
+    p-4
 }
-
 .promo {
     @apply border-none
 }
@@ -56,11 +86,16 @@
 }
 
 .note {
-    @apply w-full flex mt-6
+    @apply w-full
+    flex
+    mt-6
 }
 
 .note__label {
-    @apply block w-1/6 items-center text-center
+    @apply block
+    w-1/6
+    items-center
+    text-center
 }
 
 .note__label input {
