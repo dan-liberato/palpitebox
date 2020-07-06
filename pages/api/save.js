@@ -51,7 +51,6 @@ export default async (req, res) => {
 		}))
 
 	} catch (error) {
-		console.log("Ops...Algo deu errado, tente de novo" + error)
 		res.end("error" + error)
 	}
 

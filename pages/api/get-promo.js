@@ -23,8 +23,6 @@ export default async (req, res) => {
 		}))
 
 	} catch (error) {
-		console.log("Ops... Algo errado, tente novamente" + error)
-
 		res.end(JSON.stringify({
 			showCoupon: false,
 			message: ""
