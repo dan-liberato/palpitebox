@@ -25,7 +25,7 @@ const Search = () => {
             setSuccess(true)
             setRetorno(data)
         } catch (error) {
-            console.log('Algo de errado não está certo' + error)
+            console.log('Ops... Algo deu errado ' + error)
         }
     }
 
@@ -49,8 +49,8 @@ const Search = () => {
                 Por isso, estamos sempre abertos a ouvir a sua opinião.
             </p>
 
-            { !success && (
-                <form className={styles.form}>
+            {!success &&
+                <div className={styles.form}>
                     <label className={styles.form__label} htmlFor="name">Seu nome:</label>
                     <input
                         type="text"
@@ -101,21 +101,21 @@ const Search = () => {
                     </div>
 
                     <button className={styles.form__button} onClick={save}>Enviar</button>
-                </form>
-            )}
-            {success && (
+                </div>
+            }
+
+            {success &&
                 <div>
                     <p className={styles.banner__info}>Obrigado por contribuir com sua sugestão ou crítica.</p>
                     {
-                        retorno.showCoupon && (
+                        retorno.showCoupon &&
                             <div className={styles.coupon}>
                                 Seu cupom: <br />
                                 <span className={styles.coupon__code}>{retorno.Cupom}</span>
                             </div>
-                        )
                     }
                     {
-                        retorno.showCoupon && (
+                        retorno.showCoupon &&
                             <div className={styles.promo}>
                                 <span className={styles.promo__text}>{retorno.Promo}</span>
                                 <br />
@@ -123,10 +123,9 @@ const Search = () => {
                                     Obs.: Tire um print ou foto desta tela e apresente ao caixa.
                                 </span>
                             </div>
-                        )
                     }
                 </div>
-            )}
+            }
         </div>
     )
 }
