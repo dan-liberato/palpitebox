@@ -1,6 +1,7 @@
 # PalpiteBox
 
 <p align="center">
+	<img alt="Code quality" src="https://app.codacy.com/project/badge/Grade/287b74c564d24d99baa042c625feeee7"/>
 	<img alt="Repo size" src="https://img.shields.io/github/repo-size/dan-liberato/palpitebox.svg" />
 	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dan-liberato/palpitebox.svg">
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dan-liberato/palpitebox.svg">
