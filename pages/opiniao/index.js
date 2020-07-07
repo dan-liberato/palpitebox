@@ -27,19 +27,19 @@ const Search = () => {
 		} catch (error) {
 			console.error = (error) => {  // eslint-disable-line no-console
 				throw new Error(error.message);
-			}
+			};
 		}
-	}
+	};
 
 	const onChange = (event) => {
 		const value = event.target.value;
 		const key = event.target.name;
 
-		setForm(old => ({
+		setForm((old) => ({
 			...old,
 			[key]: value,
 		}));
-	}
+	};
 
 	return (
 		<div className={styles.container}>
