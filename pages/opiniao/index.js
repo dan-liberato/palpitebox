@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
-import PageTitle from "../../components/PageTitle"
-import styles from "./styles.module.css"
+import PageTitle from "../../components/PageTitle";
+import styles from "./styles.module.css";
 
 const Search = () => {
 	const [form, setForm] = useState({
@@ -9,36 +9,36 @@ const Search = () => {
 		Email: "",
 		Whatsapp: "",
 		Nota: 0
-	})
-	const [success, setSuccess] = useState(false)
-	const [retorno, setRetorno] = useState({})
-	const notas = [0, 1, 2, 3, 4, 5]
+	});
+	const [success, setSuccess] = useState(false);
+	const [retorno, setRetorno] = useState({});
+	const notas = [0, 1, 2, 3, 4, 5];
 
 	const save = async () => {
 		try {
 			const response = await fetch("/api/save", {
 				method: "POST",
 				body: JSON.stringify(form)
-			})
+			});
 
-			const data = await response.json()
-			setSuccess(true)
-			setRetorno(data)
+			const data = await response.json();
+			setSuccess(true);
+			setRetorno(data);
 		} catch (error) {
 			console.error = (error) => {  // eslint-disable-line no-console
-				throw new Error(error.message)
+				throw new Error(error.message);
 			}
 		}
 	}
 
 	const onChange = (event) => {
-		const value = event.target.value
-		const key = event.target.name
+		const value = event.target.value;
+		const key = event.target.name;
 
 		setForm(old => ({
 			...old,
 			[key]: value,
-		}))
+		}));
 	}
 
 	return (
@@ -97,7 +97,7 @@ const Search = () => {
 										onChange={onChange}
 									/>
 								</label>
-							)
+							);
 						})}
 
 					</div>
@@ -129,7 +129,7 @@ const Search = () => {
 				</div>
 			}
 		</div>
-	)
+	);
 }
 
-export default Search
+export default Search;

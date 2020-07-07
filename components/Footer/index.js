@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 const Footer = () => {
 	return (
@@ -22,4 +22,4 @@ const Footer = () => {
 	)
 }
 
-export default Footer
+export default Footer;

@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
-import Header from "../Header"
-import Footer from "../Footer"
+import Header from "../Header";
+import Footer from "../Footer";
 
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 const Layout = ({ children }) => {
 	return (
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
 
 			<Footer />
 		</div>
-	)
-}
+	);
+};
 
-export default Layout
+export default Layout;

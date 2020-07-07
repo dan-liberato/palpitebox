@@ -1,7 +1,7 @@
-import React from "react"
-import Link from "next/link"
+import React from "react";
+import Link from "next/link";
 
-import PageTitle from "../../components/PageTitle"
+import PageTitle from "../../components/PageTitle";
 
 const About = () => {
 	return (
@@ -14,7 +14,7 @@ const About = () => {
 				</Link>
 			</div>
 		</div>
-	)
+	);
 }
 
-export default About
+export default About;

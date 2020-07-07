@@ -1,5 +1,5 @@
-import React from "react"
-import Head from "next/head"
+import React from "react";
+import Head from "next/head";
 
 const PageTitle = ({title}) => {
 	return (
@@ -8,7 +8,7 @@ const PageTitle = ({title}) => {
 			<link rel="shortcut icon" href="/favicon.png" />
 			<meta property="og:title" content={title} key="title" />
 		</Head>
-	)
-}
+	);
+};
 
-export default PageTitle
+export default PageTitle;
