@@ -1,14 +1,14 @@
-import React from "react"
-import Link from "next/link"
-import useSWR from "swr"
+import React from "react";
+import Link from "next/link";
+import useSWR from "swr";
 
-import PageTitle from "../components/PageTitle"
-import styles from "./styles.module.css"
+import PageTitle from "../components/PageTitle";
+import styles from "./styles.module.css";
 
-const fetcher = (...args) => fetch(...args).then(res => res.json())
+const fetcher = (...args) => fetch(...args).then(res => res.json());
 
 const Home = () => {
-	const { data, error } = useSWR("/api/get-promo", fetcher)
+	const { data, error } = useSWR("/api/get-promo", fetcher);
 
 	return (
 		<div>
@@ -33,7 +33,7 @@ const Home = () => {
 			)}
 
 		</div>
-	)
-}
+	);
+};
 
-export default Home
+export default Home;
