@@ -31,16 +31,17 @@ Em troca, o cliente recebe um cupom (desconto, condição especial).
 
 Desenvolvido com:
 
--  [Node.js](https://nodejs.org/en/)
--  [Next.js](https://nextjs.org/)
--  [Tailwind](http://tailwindcss.com/)
--  [PostCSS](https://postcss.org/)
--  [CSS Modules](https://github.com/css-modules/css-modules)
--  [Google Sheets](https://www.google.com/sheets/about/)
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind](http://tailwindcss.com/)
+- [PostCSS](https://postcss.org/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- [Google Sheets](https://www.google.com/sheets/about/)
 
 ## Para testar o PalpiteBox
 
 Clone o repositório e instale as dependências
+
 >yarn install
 
 Crie um novo projeto no **Google APIs** e selecione
@@ -52,16 +53,15 @@ Google com esse e-mail.
 Pegue a id da planilha que você criou e
 adicione no arquivo **.env.example**:
 
-```
-SHEET_CLIENT_EMAIL=Email service credential
-SHEET_PRIVATE_KEY=Private key service credential
-SHEET_DOC_ID=Spreadsheet id
-```
+**SHEET_CLIENT_EMAIL**=Email service credential
+**SHEET_PRIVATE_KEY**=Private key service credential
+**SHEET_DOC_ID**=Spreadsheet id
 
 Após adicionar as informações acima, altere o
 nome do arquivo para **.env.local**.
 
 Agora é só rodar o comando
+
 > yarn dev
 
 Caso queira evitar esse processo acesse:
