@@ -1,10 +1,10 @@
 # PalpiteBox
 
 <p align="center">
-  <img alt="Repo size" src="https://img.shields.io/github/repo-size/dan-liberato/palpitebox.svg" />
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dan-liberato/palpitebox.svg">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dan-liberato/palpitebox.svg">
-  <img src="https://img.shields.io/github/last-commit/dan-liberato/palpitebox" alt="Last Commit"/>
+	<img alt="Repo size" src="https://img.shields.io/github/repo-size/dan-liberato/palpitebox.svg" />
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dan-liberato/palpitebox.svg">
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dan-liberato/palpitebox.svg">
+	<img src="https://img.shields.io/github/last-commit/dan-liberato/palpitebox" alt="Last Commit"/>
 </p>
 
 ![Screenshot](PalpiteBox.png)
@@ -31,12 +31,12 @@ Em troca, o cliente recebe um cupom (desconto, condição especial).
 
 Desenvolvido com:
 
-- [Node.js](https://nodejs.org/en/)
-- [Next.js](https://nextjs.org/)
-- [Tailwind](http://tailwindcss.com/)
-- [PostCSS](https://postcss.org/)
-- [CSS Modules](https://github.com/css-modules/css-modules)
-- [Google Sheets](https://www.google.com/sheets/about/)
+-  [Node.js](https://nodejs.org/en/)
+-  [Next.js](https://nextjs.org/)
+-  [Tailwind](http://tailwindcss.com/)
+-  [PostCSS](https://postcss.org/)
+-  [CSS Modules](https://github.com/css-modules/css-modules)
+-  [Google Sheets](https://www.google.com/sheets/about/)
 
 ## Para testar o PalpiteBox
 
