@@ -26,7 +26,7 @@ const Search = () => {
 			setRetorno(data)
 		} catch (error) {
 			console.error = (error) => {  // eslint-disable-line no-console
-				throw new Error(error)
+				throw new Error(error.message)
 			}
 		}
 	}
