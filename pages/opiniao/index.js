@@ -15,20 +15,14 @@ const Search = () => {
 	const notas = [0, 1, 2, 3, 4, 5];
 
 	const save = async () => {
-		try {
-			const response = await fetch("/api/save", {
-				method: "POST",
-				body: JSON.stringify(form)
-			});
+		const response = await fetch("/api/save", {
+			method: "POST",
+			body: JSON.stringify(form)
+		});
 
-			const data = await response.json();
-			setSuccess(true);
-			setRetorno(data);
-		} catch (error) {
-			console.error = (error) => {  // eslint-disable-line no-console
-				throw new Error(error.message);
-			};
-		}
+		const data = await response.json();
+		setSuccess(true);
+		setRetorno(data);
 	};
 
 	const onChange = (event) => {

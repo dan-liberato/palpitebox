@@ -9,7 +9,7 @@
 
 ![Screenshot](PalpiteBox.png)
 
-## :bookmark_tabs: &middot; Nota
+## :bookmark_tabs: · Nota
 
 Projeto desenvolvido durante a semana Fullstack Master do
 [DevPleno](https://devpleno.com/).
@@ -20,29 +20,29 @@ com React, inclusive torna muito mais fácil para projetos que necessitem de foc
 Sei que frameworks css agilizam o desenvolvimento, mas não sou muito fã deles e o Tailwind
 me lembrou muito do Bootstrap 4, porém acho que usar tantas classes polui de mais o html.
 
-## :computer: &middot; Projeto
+## :computer: · Projeto
 
 O PalpiteBox permite que os clientes de um restaurante ou negócio local possam
 dar sua opinião sobre o atendimento, produto eetc.
 
 Em troca, o cliente recebe um cupom (desconto, condição especial).
 
-## :rocket: &middot; Tecnologias
+## :rocket: · Tecnologias
 
 Desenvolvido com:
 
-- [Node.js](https://nodejs.org/en/)
-- [Next.js](https://nextjs.org/)
-- [Tailwind](http://tailwindcss.com/)
-- [PostCSS](https://postcss.org/)
-- [CSS Modules](https://github.com/css-modules/css-modules)
-- [Google Sheets](https://www.google.com/sheets/about/)
+-   [Node.js](https://nodejs.org/en/)
+-   [Next.js](https://nextjs.org/)
+-   [Tailwind](http://tailwindcss.com/)
+-   [PostCSS](https://postcss.org/)
+-   [CSS Modules](https://github.com/css-modules/css-modules)
+-   [Google Sheets](https://www.google.com/sheets/about/)
 
 ## Para testar o PalpiteBox
 
 Clone o repositório e instale as dependências
 
->yarn install
+> yarn install
 
 Crie um novo projeto no **Google APIs** e selecione
 a **API do Google Sheets**, gere uma credencial
@@ -54,7 +54,9 @@ Pegue a id da planilha que você criou e
 adicione no arquivo **.env.example**:
 
 **SHEET_CLIENT_EMAIL**=Email service credential
+
 **SHEET_PRIVATE_KEY**=Private key service credential
+
 **SHEET_DOC_ID**=Spreadsheet id
 
 Após adicionar as informações acima, altere o

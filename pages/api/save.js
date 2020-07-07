@@ -51,8 +51,6 @@ export default async (req, res) => {
 		}));
 
 	} catch (error) {
-		res.end("error" + error);
+		res.end("Ops... Estamos com problemas" + error.message);
 	}
-
-	res.end(req.body);
 };
